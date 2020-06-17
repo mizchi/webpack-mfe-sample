@@ -1,9 +1,9 @@
 .PHONY: install
 install:
-	cd core && npm i
-	cd page1 && npm i
+	cd core && yarn
+	cd page1 && yarn
 
 .PHONY: serve
 serve:
-	cd core && npm run serve &
-	cd page1 && npm run serve
+	cd core && yarn serve &
+	cd page1 && yarn serve
